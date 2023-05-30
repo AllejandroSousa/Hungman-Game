@@ -39,9 +39,39 @@ int hang() {
 }
 
 void opening() {
-    printf ("***************\n");
-    printf ("  Hungman Game \n");
-    printf ("***************\n\n");
+    printf (" _ \n");
+    printf ("| |\n");
+    printf ("| |__   __ _ _ __   __ _ _ __ ___   __ _ _ __  \n");
+    printf ("| '_ \\ / _` | '_ \\ / _` | '_ ` _ \\ / _` | '_ \\\n");
+    printf ("| | | | (_| | | | | (_| | | | | | | (_| | | | |\n");
+    printf ("|_| |_|\\__,_|_| |_|\\__, |_| |_| |_|\\__,_|_| |_|\n");
+    printf ("                    __/ | \n");
+    printf ("                   |___/ \n\n");
+    printf (" ___________.._______\n");
+    printf ("| .__________))______|\n");
+    printf ("| | / /      ||\n");
+    printf ("| |/ /       ||\n");
+    printf ("| | /        ||.-''.\n");
+    printf ("| |/         |/  _  \\\n");
+    printf ("| |          ||  `/,|\n");
+    printf ("| |          (\\\\`_.'\n");
+    printf ("| |         .-`--'.\n");
+    printf ("| |        /Y . . Y\\\n");
+    printf ("| |       // |   | \\\\\n");
+    printf ("| |      //  | . |  \\\\\n");
+    printf ("| |     ')   |   |   (`\n");
+    printf ("| |          ||'||\n");
+    printf ("| |          || ||\n");
+    printf ("| |          || ||\n");
+    printf ("| |          || ||\n");
+    printf ("| |         / | | \\\n");
+    printf ("\"\"\"\"\"\"\"\"\"\"|_`-' `-' |\"\"\"|\n");
+    printf ("|\"|\"\"\"\"\"\"\"\\ \\       '\"|\"|\n");
+    printf ("| |        \\ \\        | |\n");
+    printf (": :         \\ \\       : :\n");
+    printf (". .          `'       . .\n\n");
+    printf ("Guess a letter and good luck\n");
+    printf ("The theme is fruits\n");
 }
 
 int alreadyguessed(char letter) {
@@ -152,6 +182,7 @@ int main() {
     
     chooseword(secretword);
     opening();
+    system("pause");
 
     do
     {
